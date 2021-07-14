@@ -10,3 +10,4 @@ The following containers are publicly available:
 - `gcr.io/python-containers/python:3.7.10`
 - `gcr.io/python-containers/python:3.8.9`
 - `gcr.io/python-containers/python:3.9.4`
+- `gcr.io/python-containers/python:3.9.6`
