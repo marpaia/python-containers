@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   git \
   libbz2-dev \
   libffi-dev \
+  liblzma-dev \
   libreadline-dev \
   libssl-dev \
   libsqlite3-dev \
