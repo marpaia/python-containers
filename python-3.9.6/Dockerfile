@@ -1,4 +1,4 @@
-FROM gcr.io/python-containers/python-builder:v0.1.0
+FROM gcr.io/python-containers/python-builder:v0.2.0
 
 ENV PYENV_ROOT="$HOME/pyenv"
 ENV PATH="$PYENV_ROOT/bin:$PATH"
