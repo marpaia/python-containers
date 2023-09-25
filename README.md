@@ -2,8 +2,8 @@
 
 This repo contains Docker configurations for building Python containers with my favorite tools:
 
-- Ubuntu 20.04 LTS as the base image
-- Clang 10 as the compiler
+- Ubuntu 22.04 LTS as the base image
+- Clang 15 as the compiler
 
 The following containers are publicly available:
 

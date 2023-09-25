@@ -1,10 +1,10 @@
-ARG BASE=ubuntu:20.04
+ARG BASE=ubuntu:22.04
 FROM ${BASE}
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
   build-essential \
   ca-certificates \
-  clang-10 \
+  clang-15 \
   git \
   libbz2-dev \
   libffi-dev \
@@ -21,6 +21,6 @@ RUN useradd -rm -d /home/ubuntu -s /bin/bash ubuntu
 RUN echo "ubuntu ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 USER ubuntu
 ENV HOME="/home/ubuntu"
-ENV PATH="/usr/lib/llvm-10/bin:$PATH"
+ENV PATH="/usr/lib/llvm-15/bin:$PATH"
 ENV CC="clang"
 ENV CXX="clang++"
